@@ -1,0 +1,190 @@
+Run 1
+regexp.Match easy,26313.30 ops/s,3178936.60 ops/s
+regexp.Match easy (i),182.20 ops/s,8616.10 ops/s
+regexp.Match easy2,5109.80 ops/s,306059.00 ops/s
+regexp.Match medium,155.90 ops/s,9902.30 ops/s
+regexp.Match hard,124.30 ops/s,5647.70 ops/s
+regexp.Match hard2,27.20 ops/s,1065.50 ops/s
+ECDSA-P256 Sign,36212.70 ops/s,343652.20 ops/s
+ECDSA-P256 Verify,12588.80 ops/s,455679.20 ops/s
+RSA2048 Sign,1014.80 ops/s,87062.30 ops/s
+RSA2048 3-prime Sign,335.30 ops/s,31809.90 ops/s
+AES-128-GCM Enc,5287.71 MiB/s,565835.91 MiB/s
+ChaCha20-Poly1305 Enc,1752.56 MiB/s,182009.42 MiB/s
+html.EscapeString,382.31 MiB/s,13761.06 MiB/s
+html.UnescapeString,432.05 MiB/s,17886.66 MiB/s
+compress/gzip compression Twain, -8,15.61 MiB/s,2440.12 MiB/s
+compress/gzip decompression Twain, -d,132.46 MiB/s,11870.27 MiB/s
+compress/gzip compression digits, -8,26.47 MiB/s,3664.34 MiB/s
+compress/gzip decompression digits,107.18 MiB/s,5146.89 MiB/s
+Run 2
+regexp.Match easy,26339.60 ops/s,3131603.70 ops/s
+regexp.Match easy (i),181.50 ops/s,8570.50 ops/s
+regexp.Match easy2,5171.40 ops/s,313544.20 ops/s
+regexp.Match medium,157.50 ops/s,11037.30 ops/s
+regexp.Match hard,123.60 ops/s,5574.40 ops/s
+regexp.Match hard2,27.10 ops/s,1274.30 ops/s
+ECDSA-P256 Sign,36257.00 ops/s,321728.60 ops/s
+ECDSA-P256 Verify,12549.30 ops/s,439654.30 ops/s
+RSA2048 Sign,1016.40 ops/s,86196.40 ops/s
+RSA2048 3-prime Sign,334.60 ops/s,31274.00 ops/s
+AES-128-GCM Enc,5251.69 MiB/s,567157.49 MiB/s
+ChaCha20-Poly1305 Enc,1752.63 MiB/s,182450.95 MiB/s
+html.EscapeString,396.19 MiB/s,13878.71 MiB/s
+html.UnescapeString,420.93 MiB/s,17637.19 MiB/s
+compress/gzip compression Twain, -8,15.57 MiB/s,2435.76 MiB/s
+compress/gzip decompression Twain, -d,132.68 MiB/s,11970.76 MiB/s
+compress/gzip compression digits, -8,26.46 MiB/s,3663.79 MiB/s
+compress/gzip decompression digits,106.88 MiB/s,5078.19 MiB/s
+Run 3
+regexp.Match easy,26316.20 ops/s,3148838.00 ops/s
+regexp.Match easy (i),181.80 ops/s,8832.20 ops/s
+regexp.Match easy2,5122.20 ops/s,325594.30 ops/s
+regexp.Match medium,157.30 ops/s,8830.30 ops/s
+regexp.Match hard,121.80 ops/s,6549.10 ops/s
+regexp.Match hard2,27.10 ops/s,1289.20 ops/s
+ECDSA-P256 Sign,36286.00 ops/s,320621.30 ops/s
+ECDSA-P256 Verify,12569.80 ops/s,440898.50 ops/s
+RSA2048 Sign,1019.00 ops/s,88210.80 ops/s
+RSA2048 3-prime Sign,335.00 ops/s,31524.40 ops/s
+AES-128-GCM Enc,5287.77 MiB/s,565520.32 MiB/s
+ChaCha20-Poly1305 Enc,1752.66 MiB/s,182155.04 MiB/s
+html.EscapeString,386.81 MiB/s,13749.16 MiB/s
+html.UnescapeString,431.22 MiB/s,17914.59 MiB/s
+compress/gzip compression Twain, -8,15.50 MiB/s,2444.15 MiB/s
+compress/gzip decompression Twain, -d,132.64 MiB/s,11876.92 MiB/s
+compress/gzip compression digits, -8,26.47 MiB/s,3652.43 MiB/s
+compress/gzip decompression digits,107.00 MiB/s,5080.90 MiB/s
+Run 4
+regexp.Match easy,26319.20 ops/s,3163777.50 ops/s
+regexp.Match easy (i),180.10 ops/s,9336.70 ops/s
+regexp.Match easy2,5163.80 ops/s,293160.30 ops/s
+regexp.Match medium,157.00 ops/s,8458.80 ops/s
+regexp.Match hard,122.50 ops/s,5294.90 ops/s
+regexp.Match hard2,27.10 ops/s,1295.00 ops/s
+ECDSA-P256 Sign,36283.00 ops/s,321641.40 ops/s
+ECDSA-P256 Verify,12575.70 ops/s,452814.30 ops/s
+RSA2048 Sign,1019.70 ops/s,86573.50 ops/s
+RSA2048 3-prime Sign,332.40 ops/s,31648.00 ops/s
+AES-128-GCM Enc,5284.41 MiB/s,566084.60 MiB/s
+ChaCha20-Poly1305 Enc,1752.82 MiB/s,182251.76 MiB/s
+html.EscapeString,378.07 MiB/s,13872.83 MiB/s
+html.UnescapeString,425.25 MiB/s,17727.19 MiB/s
+compress/gzip compression Twain, -8,15.61 MiB/s,2432.50 MiB/s
+compress/gzip decompression Twain, -d,132.20 MiB/s,11912.40 MiB/s
+compress/gzip compression digits, -8,26.47 MiB/s,3642.15 MiB/s
+compress/gzip decompression digits,107.02 MiB/s,5135.85 MiB/s
+Run 5
+regexp.Match easy,26294.70 ops/s,3171865.80 ops/s
+regexp.Match easy (i),181.80 ops/s,9897.50 ops/s
+regexp.Match easy2,5177.40 ops/s,324459.90 ops/s
+regexp.Match medium,157.40 ops/s,10541.10 ops/s
+regexp.Match hard,121.80 ops/s,6040.70 ops/s
+regexp.Match hard2,27.20 ops/s,1214.80 ops/s
+ECDSA-P256 Sign,36318.60 ops/s,326516.00 ops/s
+ECDSA-P256 Verify,12555.30 ops/s,442399.30 ops/s
+RSA2048 Sign,1024.90 ops/s,86104.20 ops/s
+RSA2048 3-prime Sign,334.00 ops/s,31674.90 ops/s
+AES-128-GCM Enc,5286.78 MiB/s,568475.45 MiB/s
+ChaCha20-Poly1305 Enc,1753.12 MiB/s,182480.70 MiB/s
+html.EscapeString,391.04 MiB/s,13912.47 MiB/s
+html.UnescapeString,428.68 MiB/s,17625.25 MiB/s
+compress/gzip compression Twain, -8,15.57 MiB/s,2438.64 MiB/s
+compress/gzip decompression Twain, -d,132.64 MiB/s,11893.42 MiB/s
+compress/gzip compression digits, -8,26.46 MiB/s,3654.06 MiB/s
+compress/gzip decompression digits,107.02 MiB/s,5105.45 MiB/s
+Run 6
+regexp.Match easy,26269.80 ops/s,3172367.40 ops/s
+regexp.Match easy (i),181.80 ops/s,9715.00 ops/s
+regexp.Match easy2,5160.90 ops/s,317468.60 ops/s
+regexp.Match medium,156.90 ops/s,9646.70 ops/s
+regexp.Match hard,124.90 ops/s,5723.90 ops/s
+regexp.Match hard2,27.00 ops/s,1149.20 ops/s
+ECDSA-P256 Sign,36350.70 ops/s,326159.90 ops/s
+ECDSA-P256 Verify,12581.30 ops/s,447689.80 ops/s
+RSA2048 Sign,1019.40 ops/s,86452.70 ops/s
+RSA2048 3-prime Sign,335.80 ops/s,31729.80 ops/s
+AES-128-GCM Enc,5287.40 MiB/s,568757.43 MiB/s
+ChaCha20-Poly1305 Enc,1752.41 MiB/s,182397.00 MiB/s
+html.EscapeString,393.64 MiB/s,13851.20 MiB/s
+html.UnescapeString,432.38 MiB/s,18025.05 MiB/s
+compress/gzip compression Twain, -8,15.61 MiB/s,2439.49 MiB/s
+compress/gzip decompression Twain, -d,132.86 MiB/s,11785.71 MiB/s
+compress/gzip compression digits, -8,26.32 MiB/s,3644.44 MiB/s
+compress/gzip decompression digits,107.12 MiB/s,5146.16 MiB/s
+Run 7
+regexp.Match easy,26278.60 ops/s,3148255.20 ops/s
+regexp.Match easy (i),181.40 ops/s,8926.40 ops/s
+regexp.Match easy2,5117.20 ops/s,313015.50 ops/s
+regexp.Match medium,156.70 ops/s,10488.70 ops/s
+regexp.Match hard,121.60 ops/s,6026.00 ops/s
+regexp.Match hard2,27.10 ops/s,1094.00 ops/s
+ECDSA-P256 Sign,36323.50 ops/s,329591.10 ops/s
+ECDSA-P256 Verify,12562.50 ops/s,448013.70 ops/s
+RSA2048 Sign,1024.50 ops/s,87780.00 ops/s
+RSA2048 3-prime Sign,334.00 ops/s,31451.80 ops/s
+AES-128-GCM Enc,5286.83 MiB/s,565599.83 MiB/s
+ChaCha20-Poly1305 Enc,1753.40 MiB/s,181987.88 MiB/s
+html.EscapeString,402.49 MiB/s,13996.39 MiB/s
+html.UnescapeString,422.87 MiB/s,17891.80 MiB/s
+compress/gzip compression Twain, -8,15.57 MiB/s,2389.45 MiB/s
+compress/gzip decompression Twain, -d,133.12 MiB/s,11927.12 MiB/s
+compress/gzip compression digits, -8,26.45 MiB/s,3663.80 MiB/s
+compress/gzip decompression digits,107.08 MiB/s,5208.86 MiB/s
+Run 8
+regexp.Match easy,26302.70 ops/s,3156411.80 ops/s
+regexp.Match easy (i),181.30 ops/s,8651.80 ops/s
+regexp.Match easy2,5139.00 ops/s,319311.80 ops/s
+regexp.Match medium,155.60 ops/s,10768.20 ops/s
+regexp.Match hard,122.10 ops/s,5559.90 ops/s
+regexp.Match hard2,27.10 ops/s,1088.90 ops/s
+ECDSA-P256 Sign,36326.30 ops/s,328719.80 ops/s
+ECDSA-P256 Verify,12570.20 ops/s,449315.50 ops/s
+RSA2048 Sign,1024.10 ops/s,88310.10 ops/s
+RSA2048 3-prime Sign,335.10 ops/s,31756.10 ops/s
+AES-128-GCM Enc,5287.01 MiB/s,562414.01 MiB/s
+ChaCha20-Poly1305 Enc,1752.56 MiB/s,181877.77 MiB/s
+html.EscapeString,423.36 MiB/s,13832.05 MiB/s
+html.UnescapeString,422.54 MiB/s,18192.92 MiB/s
+compress/gzip compression Twain, -8,15.61 MiB/s,2443.12 MiB/s
+compress/gzip decompression Twain, -d,132.20 MiB/s,12002.05 MiB/s
+compress/gzip compression digits, -8,26.46 MiB/s,3650.40 MiB/s
+compress/gzip decompression digits,106.43 MiB/s,5165.67 MiB/s
+Run 9
+regexp.Match easy,26292.60 ops/s,3163301.80 ops/s
+regexp.Match easy (i),180.00 ops/s,8632.10 ops/s
+regexp.Match easy2,5147.90 ops/s,331496.80 ops/s
+regexp.Match medium,157.00 ops/s,8955.00 ops/s
+regexp.Match hard,122.70 ops/s,5823.80 ops/s
+regexp.Match hard2,16.80 ops/s,1052.20 ops/s
+ECDSA-P256 Sign,36298.50 ops/s,329442.60 ops/s
+ECDSA-P256 Verify,12574.90 ops/s,443155.80 ops/s
+RSA2048 Sign,1005.60 ops/s,86289.10 ops/s
+RSA2048 3-prime Sign,334.60 ops/s,31747.80 ops/s
+AES-128-GCM Enc,5285.33 MiB/s,565895.67 MiB/s
+ChaCha20-Poly1305 Enc,1752.32 MiB/s,182360.57 MiB/s
+html.EscapeString,382.00 MiB/s,13906.29 MiB/s
+html.UnescapeString,422.20 MiB/s,17897.05 MiB/s
+compress/gzip compression Twain, -8,15.61 MiB/s,2445.15 MiB/s
+compress/gzip decompression Twain, -d,132.68 MiB/s,12045.00 MiB/s
+compress/gzip compression digits, -8,26.26 MiB/s,3676.65 MiB/s
+compress/gzip decompression digits,107.10 MiB/s,5149.57 MiB/s
+Run 10
+regexp.Match easy,26282.60 ops/s,3148670.60 ops/s
+regexp.Match easy (i),181.20 ops/s,10871.00 ops/s
+regexp.Match easy2,5174.80 ops/s,308282.70 ops/s
+regexp.Match medium,156.20 ops/s,9255.60 ops/s
+regexp.Match hard,122.30 ops/s,5582.00 ops/s
+regexp.Match hard2,27.10 ops/s,1171.40 ops/s
+ECDSA-P256 Sign,36272.30 ops/s,326088.60 ops/s
+ECDSA-P256 Verify,12572.20 ops/s,433484.10 ops/s
+RSA2048 Sign,1013.40 ops/s,87301.90 ops/s
+RSA2048 3-prime Sign,330.70 ops/s,31212.10 ops/s
+AES-128-GCM Enc,5240.68 MiB/s,560343.93 MiB/s
+ChaCha20-Poly1305 Enc,1738.82 MiB/s,183198.66 MiB/s
+html.EscapeString,390.74 MiB/s,13681.37 MiB/s
+html.UnescapeString,410.92 MiB/s,17694.17 MiB/s
+compress/gzip compression Twain, -8,15.39 MiB/s,2415.97 MiB/s
+compress/gzip decompression Twain, -d,131.79 MiB/s,11843.93 MiB/s
+compress/gzip compression digits, -8,26.24 MiB/s,3587.59 MiB/s
+compress/gzip decompression digits,106.02 MiB/s,5150.99 MiB/s
